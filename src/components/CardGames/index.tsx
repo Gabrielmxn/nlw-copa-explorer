@@ -24,7 +24,6 @@ export function CardGames({dateTime, game}: CardGamesProps) {
       <div className="flex flex-col gap-6">
 
         {game.map(play => {
-          console.log(game)
           return(
             <Game 
               firstCountry={play.firstCountry}

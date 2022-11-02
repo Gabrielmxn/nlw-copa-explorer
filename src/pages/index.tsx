@@ -90,7 +90,7 @@ export default function Home() {
         <h2 className="text-3xl">CALENDÁRIO</h2>
       </div>
 
-      <div className="grid grid-cols-2 mt-16 gap-8 sm:flex-row">
+      <div className="grid grid-cols-1 mt-16 gap-8 sm:grid-cols-2">
 
         {games.map(play => {
           return (
