@@ -4,6 +4,9 @@ module.exports = {
     './src/**/*.tsx',
   ],
   theme: {
+    fontFamily: {
+      sans: ['Roboto', 'sans-serif'],
+    },
     colors: {
       gray: {
         100: '#FFFFFF',
