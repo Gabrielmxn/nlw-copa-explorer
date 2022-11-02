@@ -26,6 +26,7 @@ export function CardGames({dateTime, game}: CardGamesProps) {
         {game.map(play => {
           return(
             <Game 
+              key={play.time}
               firstCountry={play.firstCountry}
               secondCountry={play.secondCountry}
               time={format(new Date(play.time), "k':'ss", {locale: ptBR})}

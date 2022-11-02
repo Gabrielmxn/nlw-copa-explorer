@@ -95,7 +95,8 @@ export default function Home() {
         {games.map(play => {
           return (
             
-            <CardGames 
+            <CardGames
+              key={play.dateGame} 
               dateTime={play.dateGame}
               game={play.game}
             />
